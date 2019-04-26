@@ -1,0 +1,15 @@
+{
+  "name": "smallest-number",
+  "version": "1.0.0",
+  "description": "Finds the smallest number with a specific number of digits",
+  "main": "small-number.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Diego Rani Mazine",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
