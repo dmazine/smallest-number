@@ -33,7 +33,6 @@ describe('SmallestNumber', function() {
 
   });
 
-
   describe('#getSmallestNumber()', function() {
 
     it('should return NaN when number of digits is 0', function() {
