@@ -5,7 +5,7 @@ const SmallestNumber = require('../src/smallest-number');
 describe('SmallestNumber', function() {
   const smallestNumber = new SmallestNumber();
 
-	describe('#getNumberOfDigits()', function() {
+  describe('#getNumberOfDigits()', function() {
     
     it('should return 0 when number is null', function() {
       smallestNumber.getNumberOfDigits().should.equal(0);
@@ -34,7 +34,7 @@ describe('SmallestNumber', function() {
   });
 
 
-	describe('#getSmallestNumber()', function() {
+  describe('#getSmallestNumber()', function() {
 
     it('should return NaN when number of digits is 0', function() {
       smallestNumber.getSmallestNumber(0).should.be.NaN;
@@ -58,7 +58,7 @@ describe('SmallestNumber', function() {
 
   });
 
-	describe('#getSmallestNumberWithSameNumberOfDigits()', function() {
+  describe('#getSmallestNumberWithSameNumberOfDigits()', function() {
 
       it('should return NaN when number is negative', function() {
       smallestNumber.getSmallestNumberWithSameNumberOfDigits(-1).should.be.NaN;
