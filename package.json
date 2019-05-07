@@ -4,7 +4,7 @@
   "description": "Finds the smallest number with a specific number of digits",
   "main": "small-number.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Diego Rani Mazine",
   "license": "ISC",
